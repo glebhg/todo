@@ -1,0 +1,45 @@
+body {
+  font-family: "Inter", "Roboto", sans-serif;
+}
+
+h1 {
+  color: #0e0e11;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h1 + p {
+  color: #575767;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+h2 {
+  color: #575767;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.incomplete {
+  color: #575767;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 0em;
+  color: #b9b9be;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.completed {
+  color: #b9b9be;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+
+
+
