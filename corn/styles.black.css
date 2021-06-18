@@ -1,0 +1,55 @@
+:root{
+    --font:'Inter', sans-serif;
+    --hr-color:#D0D0D0;
+    --font-size-p: 14px;
+    --font-size-h1:32px;
+    --font-weight-h1-h2:700;
+    --font-weight-p:600;
+    --font-size-html:18px;
+    --font-weight-li:500;
+    --background-color:#141419;
+    --font-color-h1:#DADADA;
+    --color-p:#575767;
+}
+
+html{
+    font-family: var(--font);
+    background-color: var(--background-color);
+    font-size: var(--font-size-html);
+}
+
+h1{
+    font-size: var(--font-size-h1);
+}
+
+h1, h2, .li{
+    font-weight: var(--font-weight-h1-h2);
+    color: var(--font-color-h1);
+}
+
+p{
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-p);
+}
+
+.hr{
+    color: var(--hr-color);
+}
+
+h2{
+    font-size: var(--font-size-main);
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-weight: var(--font-weight-li) ;
+}
+
+label, p{
+    color:var(--color-p);
+}
+
