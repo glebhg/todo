@@ -4,14 +4,14 @@ body {
 
 h1 {
     
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     color: #DADADA;
   }
   h2 {
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     font-style: bold;
     font-size: 18px;
     line-height: 18px;
@@ -19,7 +19,7 @@ h1 {
 
   }
   .top {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -27,7 +27,7 @@ h1 {
     color: #DADADA;
   }
   .down {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -39,10 +39,19 @@ h1 {
   }
   
   p{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #575767; 
   }
+  .subtitle {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #575767;
+  }
+ 
