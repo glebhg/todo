@@ -5,63 +5,77 @@
 <head>
   <meta charset="utf-8">
   <title>Todo App</title>
-  <link rel="stylesheet" href="styles.css" />
+  <!-- <link rel="stylesheet" href="styles.css" />
   <!-- If you uncomment the following line the design MUST be dark -->
-  <!-- link rel="stylesheet" href="styles.black.css" / -->
+  <link rel="stylesheet" href="styles.black.css" / -->
 </head>
 
 <body>
   <header>
-   <h1>March 9, 2020</h1> 
-   5 Incomplete, 5 completed
-  </header>
+    <time datetime="2020-03-09 9:41">
+   <h1>March 9, 2020</h1></time>
+   <p>5 Incomplete, 5 completed</p>
+    </header>
   <hr>
   <main>
     <section>
+    
      <h2>Incomplete</h2>
-     <input type="checkbox" name="upload" id="upload">
-     <label for="upload">Upload 1099-R to TurboTax</label>
-     <br>
-     &#x1F4B0 Finance
-     <br>
-     <input type="checkbox" name="submit" id="submit">
-     <label for="submit">Submit 2019 tax return</label>
-     <br>
-     &#x1F4B0 Finance
-     <br>
-     <input type="checkbox" name="print" id="print">
-     <label for="print">Print parking passes</label>
-     <br>
-     &#x1F49E Wedding
-     <br>
-     <input type="checkbox" name="sign" id="sign">
-     <label for="sign">Sign contract, send back</label>
-     <br> 
-     &#x1F5A5 Freelance
-     <br>
-     <input type="checkbox" name="hand" id="hand">
-     <label for="hand">Hand sanitizer</label>
-     <br>
-     &#x1F6D2 Shopping List
-
+     <ul class="top">
+       <li>
+          <input type="checkbox" name="upload" id="upload">
+          <label for="upload">Upload 1099-R to TurboTax</label>
+          <p>&#x1F4B0 Finance </p>
+       </li>
+          <input type="checkbox" name="submit" id="submit">
+          <label for="submit">Submit 2019 tax return</label>
+          <p>&#x1F4B0 Finance</p>
+       </li>
+       <li> 
+          <input type="checkbox" name="print" id="print">
+          <label for="print">Print parking passes</label>
+          <p>&#x1F49E Wedding</p>
+       </li>
+       <li> 
+          <input type="checkbox" name="sign" id="sign">
+          <label for="sign">Sign contract, send back</label>
+          <p>&#x1F5A5 Freelance</p>
+       </li>
+       <li> 
+          <input type="checkbox" name="hand" id="hand">
+          <label for="hand">Hand sanitizer</label>
+          <p>&#x1F6D2 Shopping List </p>
+       </li>
+    </ul>
     </section>
     <section>
      <h2>Completed</h2>
-     <input type="checkbox" name="check" id="check" checked> 
-     <label for="check">Check on FedEx Order</label>
-     <br>
-     <input type="checkbox" name="look" id="look"checked>
-     <label for="look">Look at new plugins</label>
-     <br>
-     <input type="checkbox" name="respont" id="respont" checked>
-     <label for="respont">Respond to catering company</label>
-     <br>
-     <input type="checkbox" name="reschedule" id="reschedule" checked>
-     <label for="reschedule">Reschedule morning coffee</label>
-     <br>
-     <input type="checkbox" name="checkthe"  id="checkthe" checked>
-     <label for="checkthe">Check the latest on Community</label>
-     
+     <ul class="down">
+       <li>
+          <input type="checkbox" name="check" id="check" checked> 
+          <label for="check">Check on FedEx Order</label>
+       </li>
+       <li>
+          <p>
+          <input type="checkbox" name="look" id="look"checked>
+          <label for="look">Look at new plugins</label>
+          </p>
+       </li>
+       <li>
+          <input type="checkbox" name="respont" id="respont" checked>
+          <label for="respont">Respond to catering company</label>
+       </li>
+       <li>
+          <p>
+          <input type="checkbox" name="reschedule" id="reschedule" checked>
+          <label for="reschedule">Reschedule morning coffee</label>
+          </p>
+       </li>
+       <li>
+          <input type="checkbox" name="checkthe"  id="checkthe" checked>
+          <label for="checkthe">Check the latest on Community</label>
+       </li>
+     </ul>
      
     </section>
   </main>

@@ -1,0 +1,43 @@
+h1 {
+    
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: black;
+}
+h2 {
+  font-family: inter;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #575767;
+}
+.top {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #575767;
+}
+.down {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B9B9BE;
+}
+li {
+  list-style-type: none;
+}
+
+p{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B9B9BE;
+}
