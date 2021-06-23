@@ -1,0 +1,11 @@
+@import url('styles.css');
+:root{
+    --h1-subtittleLi-color:#DADADA;
+    --hr-p-label-color:#575767;
+    --background-color:#141419;
+    --font-color-h1:var(--h1-subtittleLi-color);
+    --hr-color:var(--hr-p-label-color);
+    --color-subtitle-li:var(--h1-subtittleLi-color);
+    --color-p-label:var(--hr-p-label-color);
+}
+

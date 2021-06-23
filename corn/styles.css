@@ -1,0 +1,70 @@
+:root{
+    
+    --font-family:'Inter', sans-serif;
+    --subtittleLi-subtittle-color:#575767;
+    --background-color:#F8F8F8;
+    --hr-color:#D0D0D0;
+    --color-subtitle-li:var(--subtittleLi-subtittle-color);
+    --font-color-h1:#0E0E11;
+    --subtittle-color:var(--subtittleLi-subtittle-color);
+    --font-size-html:18px;
+    --font-size-p: 14px;
+    --font-size-h1:32px;
+    --font-weight-h1-h2:700;
+    --font-weight-p:600;
+    --font-weight-li:500;
+    --color-p-label:#B9B9BE;
+    
+    
+}
+
+li > p, li > label{
+    color: var(--color-p-label);
+} 
+
+html{
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+}
+
+label{
+font-size: var(--font-size-html);
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    color: var(--hr-color);
+}
+
+h2, ul.incomplete_list > li{
+ color: var(--color-subtitle-li);
+ font-size: var(--font-size-html);
+}
+
+ul.incomplete_list > li{
+    font-weight: var(--font-weight-li);
+}
+
+h1{
+    color: var(--font-color-h1);
+    font-size:var(--font-size-h1);
+}
+
+.subtittle{
+    color: var(--subtittle-color);
+
+}
+
+.subtittle, p{
+    font-size:var(--font-size-p);
+    font-weight:var(--font-weight-p);
+}
+
+
+h1, h2{
+    font-weight: var(--font-weight-h1-h2);
+}
+

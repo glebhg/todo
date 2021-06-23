@@ -6,11 +6,76 @@
   <meta charset="utf-8">
   <title>Todo App</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
   <!-- If you uncomment the following line the design MUST be dark -->
-  <!-- link rel="stylesheet" href="styles.black.css" / -->
+  <!--link rel="stylesheet" href="styles.black.css"-->
 </head>
 
 <body>
-
+  <header>
+    <h1>
+      <time datetime="2020-03-09">March 9, 2020</time>
+    </h1>
+    <p class="subtittle">5 incomplete, 5 completed</p>
+  </header>
+  <hr />
+  <main>
+    <section>
+      <h2>Incomplete</h2>
+      <ul class="incomplete_list">
+        <li>
+          <input type="checkbox"> Upload 1099-R to TurboTax
+          <p>💰 Finance</p>
+        </li>
+        <li>
+          <input type="checkbox">Submit 2019 tax return
+          <p>💰 Finance</p>
+        </li>
+        <li>
+          <input type="checkbox">Print parking passes
+          <p>💞 Wedding</p>
+        </li>
+        <li>
+          <input type="checkbox">Sign contract, send back
+          <p>🖥️ Freelance</p>
+        </li>
+        <li>
+          <input type="checkbox">Hand sanitizer
+          <p>🛒 Shopping List</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Completed</h2>
+      <ul>
+        <li>
+          <label>
+            <input type="checkbox" checked>Check on FedEx Order
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" checked>Look at new plugins
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" checked>Respond to catering company
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" checked>Reschedule morning coffee
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="checkbox" checked>Check the latest on Community
+          </label>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
