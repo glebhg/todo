@@ -1,70 +1,134 @@
-:root{
-    
-    --font-family:'Inter', sans-serif;
-    --subtittleLi-subtittle-color:#575767;
-    --background-color:#F8F8F8;
-    --hr-color:#D0D0D0;
-    --color-subtitle-li:var(--subtittleLi-subtittle-color);
-    --font-color-h1:#0E0E11;
-    --subtittle-color:var(--subtittleLi-subtittle-color);
-    --font-size-html:18px;
-    --font-size-p: 14px;
-    --font-size-h1:32px;
-    --font-weight-h1-h2:700;
-    --font-weight-p:600;
-    --font-weight-li:500;
-    --color-p-label:#B9B9BE;
-    
-    
+:root {
+  --font-family: "Inter", sans-serif;
+  --subtittleLi-subtittle-color: #575767;
+  --background-color: #f8f8f8;
+  --hr-color: #d0d0d0;
+  --color-subtitle-li: var(--subtittleLi-subtittle-color);
+  --font-color-h1: #0e0e11;
+  --subtittle-color: var(--subtittleLi-subtittle-color);
+  --font-size-html: 18px;
+  --font-size-p: 14px;
+  --font-size-h1: 32px;
+  --font-weight-h1-h2: 700;
+  --font-weight-p: 600;
+  --font-weight-li: 500;
+  --color-p-label: #b9b9be;
+  --margin-left-html: 10px;
+  --margin-top-ul: 5px;
+  --margin-bottom-h1: 0;
+  --background-color-button: #3f4ea0;
+  --font-color-button: #fff;
+  --border-radius-button: 50%;
+  --border-color-button: #515cc6;
+  --size-button: 56px;
+  --height-button: var(--size-button);
+  --width-button: var(--size-button);
+  --font-size-button: 50px;
+  --line-height-button: 1em;
+  --margin-left-button: 285px;
+  --margin-top-button: -45px;
+  --margin-left-li-p: 33px;
+  --margin-top-li-p: 0px;
+  --padding-inline-start-ul: 0px;
+  --margin-right-input: 20px;
+  --margin-left-input: 0;
+  --margin-bottom-h2: 0;
+  --margin-top-h2: 20px;
+  --padding-bottom-ul-complete_list-li: 10px;
+  --display-button: block;
+  --position--button: sticky;
+  --bottom-button: 0;
+}
+li > p,
+li > label {
+  color: var(--color-p-label);
 }
 
-li > p, li > label{
-    color: var(--color-p-label);
-} 
-
-html{
-    font-family: var(--font-family);
-    background-color: var(--background-color);
+html {
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+  margin-left: var(----margin-left-html);
 }
 
-label{
-font-size: var(--font-size-html);
+label {
+  font-size: var(--font-size-html);
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
+  margin-top: var(--margin-top-ul);
 }
 
-hr{
-    color: var(--hr-color);
+hr {
+  color: var(--hr-color);
 }
 
-h2, ul.incomplete_list > li{
- color: var(--color-subtitle-li);
- font-size: var(--font-size-html);
+h2,
+ul.incomplete_list > li {
+  color: var(--color-subtitle-li);
+  font-size: var(--font-size-html);
 }
 
-ul.incomplete_list > li{
-    font-weight: var(--font-weight-li);
+ul.incomplete_list > li {
+  font-weight: var(--font-weight-li);
 }
 
-h1{
-    color: var(--font-color-h1);
-    font-size:var(--font-size-h1);
+h1 {
+  color: var(--font-color-h1);
+  font-size: var(--font-size-h1);
+  margin-bottom: var(--margin-bottom-h1);
 }
 
-.subtittle{
-    color: var(--subtittle-color);
-
+.subtittle {
+  color: var(--subtittle-color);
 }
 
-.subtittle, p{
-    font-size:var(--font-size-p);
-    font-weight:var(--font-weight-p);
+.subtittle,
+p {
+  font-size: var(--font-size-p);
+  font-weight: var(--font-weight-p);
 }
 
-
-h1, h2{
-    font-weight: var(--font-weight-h1-h2);
+h1,
+h2 {
+  font-weight: var(--font-weight-h1-h2);
 }
 
+button {
+  position: var(--position--button);
+  bottom: var(--bottom-button);
+  display: var(--display-button);
+  background-color: var(--background-color-button);
+  color: var(--font-color-button);
+  border-radius: var(--border-radius-button);
+  border-color: var(--border-color-button);
+  height: var(--height-button);
+  width: var(--width-button);
+  font-size: var(--font-size-button);
+  line-height: var(--line-height-button);
+  margin-left: var(--margin-left-button);
+  margin-top: var(--margin-top-button);
+}
+
+li > p {
+  margin-left: var(--margin-left-li-p);
+  margin-top: var(--margin-top-li-p);
+}
+
+ul {
+  padding-inline-start: var(--padding-inline-start-ul);
+}
+
+input {
+  margin-right: var(--margin-right-input);
+  margin-left: var(--margin-left-input);
+}
+
+h2 {
+  margin-bottom: var(--margin-bottom-h2);
+  margin-top: var(--margin-top-h2);
+}
+
+ul.complete_list > li {
+  padding-bottom: var(--padding-bottom-ul-complete_list-li);
+}
