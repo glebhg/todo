@@ -25,8 +25,8 @@
   --width-button: var(--size-button);
   --font-size-button: 50px;
   --line-height-button: 1em;
-  --margin-left-button: 285px;
-  --margin-top-button: -45px;
+  --margin-left-button: 280px;
+  --margin-top-button: -55px;
   --margin-left-li-p: 33px;
   --margin-top-li-p: 0px;
   --padding-inline-start-ul: 0px;
@@ -35,10 +35,8 @@
   --margin-bottom-h2: 0;
   --margin-top-h2: 20px;
   --padding-bottom-ul-complete_list-li: 10px;
-  --display-button: block;
-  --position--button: sticky;
-  --bottom-button: 0;
 }
+
 li > p,
 li > label {
   color: var(--color-p-label);
@@ -95,9 +93,7 @@ h2 {
 }
 
 button {
-  position: var(--position--button);
-  bottom: var(--bottom-button);
-  display: var(--display-button);
+  position: absolute;
   background-color: var(--background-color-button);
   color: var(--font-color-button);
   border-radius: var(--border-radius-button);
