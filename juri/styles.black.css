@@ -1,17 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --main-font-family: 'Inter', sans-serif; 
+}
 body {
     background-color: black;
 }
 
 h1 {
     
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
     color: #DADADA;
   }
   h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font-family);
     font-style: bold;
     font-size: 18px;
     line-height: 18px;
@@ -19,7 +31,7 @@ h1 {
 
   }
   .top {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -27,7 +39,7 @@ h1 {
     color: #DADADA;
   }
   .down {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -39,7 +51,7 @@ h1 {
   }
   
   p{
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -47,11 +59,10 @@ h1 {
     color: #575767; 
   }
   .subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #575767;
   }
- 
