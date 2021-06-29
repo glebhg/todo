@@ -1,6 +1,6 @@
 :root {
   --main-font-family: "Inter", "Roboto", sans-serif;
-  --background-color: #F8F8F8;
+  --background-color: #f8f8f8;
   --h1-color: #0e0e11;
   --h1h2font-weight: bold;
   --h1font-size: 32px;
@@ -8,14 +8,19 @@
   --pfont-size: 14px;
   --first-color: #575767;
   --second-color: #b9b9be;
-  --h2-color: var(--second-color);
+  --h2-color: var(--first-color);
   --incomlete-color: var(--first-color);
   --classfont-weight: 500;
   --pfont-weight: 600;
+  --padding-lefth1pcompleted: 16px;
+  --padding-leftincomleted: 17px;
+  --pading-lefth2: 18px;
+  --margin-tophtml: 0px;
 }
 html {
   font-family: var(--main-font-family);
   background-color: var(--background-color);
+  margin-left: var(--margin-tophtml);
 }
 ul {
   list-style-type: none;
@@ -25,39 +30,57 @@ h1 {
   color: var(--h1-color);
   font-weight: var(--h1h2font-weight);
   font-size: var(--h1font-size);
+  padding-left: var(--padding-lefth1pcompleted);
 }
 
 h1 + p {
   color: var(--first-color);
   font-weight: var(--pfont-weight);
   font-size: var(--pfont-size);
+  padding-left: var(--padding-lefth1pcompleted);
 }
 
 h2 {
   color: var(--h2-color);
   font-weight: var(--h1h2font-weight);
   font-size: var(--h2font-size);
+  padding-left: var(--pading-lefth2);
 }
 
 .incomplete {
   color: var(--incomlete-color);
   font-weight: var(--classfont-weight);
   font-size: var(--h2font-size);
+  padding-left: var(--padding-leftincomleted);
 }
 
 p {
   color: var(--second-color);
   font-weight: var(--pfont-weight);
   font-size: var(--pfont-size);
+  margin-top: 4px;
 }
 
 .completed {
   color: var(--second-color);
   font-weight: var(--classfont-weight);
   font-size: var(--h2font-size);
+  padding-left: var(--padding-lefth1pcompleted);
 }
+button {
+  position: absolute;
+  left: 280px;
+  top: 570px;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #3f4ea0 0%, #473fa0 100%);
+  border: 2px solid #515cc6;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
 
-
-
-
+}
+div {
+color: #fff;
+}
 
