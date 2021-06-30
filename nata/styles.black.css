@@ -1,0 +1,9 @@
+@import url("styles.css");
+
+:root {
+  --background-color: #141419;
+  --h1-color: #dadada;
+  --h2-color: var(--h1-color);
+  --incomlete-color: var(--h1-color);
+  --second-color: #575767;
+}
