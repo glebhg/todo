@@ -11,9 +11,19 @@ html{
 }
 
 :root{
+  --background-color:#F8F8F8;
+  --h1-color: #515CC6;
+  --h2-color: #575767;
+  --hr-color:#D0D0D0;
+  --top-color:#575767;
+
 
   --font-family: 'Inter', sans-serif;
-  --background-color: white;
+  --main-font-family : var(--font-family);
+
+
+
+ /*
   --font-size-p: 14px;
   --font-size-h1: 32px;
   --font-size-main: 18px;
@@ -22,10 +32,76 @@ html{
   --font-weight-h1-h2: 700;
   --font-weight-p: 600;
   --font-weight-li: 500;
-  --subtitle-color: #575767;
+  --subtitle-color: #575767; */
 
 }
 
+
+body {
+  background-color: var(--background-color);
+}
+
+h1 {
+  
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--h1-color);
+}
+h2 {
+  font-family: var(--main-font-family);
+  font-style: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color:var(--h2-color);
+
+}
+hr {
+color: var(--hr-color); 
+;
+}
+.top {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px; 
+  color:var(--top-color);
+}
+.down {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color:  #575767; 
+}
+li {
+  list-style-type: none;
+}
+
+ .top p{
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #B9B9BE;
+ 
+}
+.subtitle {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #575767;
+}
+
+
+
+/*
 html{
   font-family: var(--font-family);
   background-color: var(--background-color);
@@ -49,7 +125,7 @@ h1,h2{
   font-weight: var(--font-weight-h1-h2);
 }
 hr{
-  color: #D0D0D0;
+  color:var(--hr-color);
 }
 
 li >p, li> label {
@@ -68,6 +144,7 @@ ul.top >li {
 label {
   font-size: var(--font-size-main);
 }
+*/
 
 button{
   position: absolute;
@@ -84,6 +161,10 @@ button{
 }
 button:hover{
  cursor: pointer;
+}
+button:active {
+  transform: translateY(1px);
+  background-color: #2104a1;
 }
 .plus {
   font-family: 'Times New Roman', Times, serif;
