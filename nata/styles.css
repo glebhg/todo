@@ -31,6 +31,7 @@ h1 {
   font-weight: var(--h1h2font-weight);
   font-size: var(--h1font-size);
   padding-left: var(--padding-lefth1pcompleted);
+  margin-bottom: 8px;
 }
 
 h1 + p {
@@ -59,6 +60,7 @@ p {
   font-weight: var(--pfont-weight);
   font-size: var(--pfont-size);
   margin-top: 4px;
+  padding-left: 24px;
 }
 
 .completed {
@@ -69,15 +71,20 @@ p {
 }
 button {
   position: absolute;
-  left: 280px;
-  top: 570px;
+  right: 70px;
+  bottom: 40px;
   height: 56px;
   width: 56px;
   border-radius: 50%;
-  background: linear-gradient(180deg, #3f4ea0 0%, #473fa0 100%);
+  background-color: #3f4ea0;
   border: 2px solid #515cc6;
-  box-sizing: border-box;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
 }
 
+button:hover {
+  cursor: pointer;
+}
 
+button:active {
+  background-color: #2104a1;
+ transform: translateY(4px);
+}
