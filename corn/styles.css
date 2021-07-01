@@ -16,17 +16,6 @@
   --margin-left-html: 10px;
   --margin-top-ul: 5px;
   --margin-bottom-h1: 0;
-  --background-color-button: #3f4ea0;
-  --font-color-button: #fff;
-  --border-radius-button: 50%;
-  --border-color-button: #515cc6;
-  --size-button: 56px;
-  --height-button: var(--size-button);
-  --width-button: var(--size-button);
-  --font-size-button: 50px;
-  --line-height-button: 1em;
-  --margin-left-button: 280px;
-  --margin-top-button: -55px;
   --margin-left-li-p: 33px;
   --margin-top-li-p: 0px;
   --padding-inline-start-ul: 0px;
@@ -45,7 +34,7 @@ li > label {
 html {
   font-family: var(--font-family);
   background-color: var(--background-color);
-  margin-left: var(----margin-left-html);
+  margin-left: var(--margin-left-html);
 }
 
 label {
@@ -92,18 +81,10 @@ h2 {
   font-weight: var(--font-weight-h1-h2);
 }
 
-button {
+a {
   position: absolute;
-  background-color: var(--background-color-button);
-  color: var(--font-color-button);
-  border-radius: var(--border-radius-button);
-  border-color: var(--border-color-button);
-  height: var(--height-button);
-  width: var(--width-button);
-  font-size: var(--font-size-button);
-  line-height: var(--line-height-button);
-  margin-left: var(--margin-left-button);
-  margin-top: var(--margin-top-button);
+  right: 10px;
+  bottom: 50px;
 }
 
 li > p {
