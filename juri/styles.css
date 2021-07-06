@@ -1,6 +1,7 @@
 html{
   box-sizing: border-box;
-  position: relative;  
+  position: relative; 
+  margin-left: 10px;
   
 }
 
@@ -22,6 +23,7 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #575767;
+  margin-left: 10px;
 }
 
 h1 {
@@ -30,15 +32,19 @@ h1 {
   font-weight: 600;
   font-size: 32px;
   color: var(--h1-color);
+  margin-left: 10px;
+
 }
 h2 {
   
   font-size: 18px;
   line-height: 18px;
   color:var(--h2-color);
+  margin-left: 10px;
 }
 hr {
-color: var(--hr-color); 
+color: var(--hr-color);
+margin-left: 10px; 
 }
 
 .ul_incomplite {
@@ -47,7 +53,7 @@ color: var(--hr-color);
   font-size: 18px;
   line-height: 24px; 
   color:var(--top-color);
-  padding-left: 5px;
+  padding-left: 8px;
 }
 
 .ul_completed {
